@@ -1,0 +1,438 @@
+{
+    "VERSION": "5.4",
+    "BUSBITCHARS": "[]",
+    "DIVIDERCHAR": "/",
+    "MANUFACTURINGGRID": "0.005",
+    "cells": [
+        {
+            "ref_Name": "BUFFSGD3BWP30P140HVT",
+            "CLASS": "CORE",
+            "FOREIGN": "BUFFSGD3BWP30P140HVT",
+            "SIZE": {
+                "x": 700.0,
+                "y": 900.0
+            },
+            "SYMMETRY": "X Y",
+            "SITE": "core",
+            "Pins": [
+                {
+                    "id": 0,
+                    "pin_name": "Z",
+                    "direction": "OUTPUT",
+                    "use": "SIGNAL",
+                    "layer": "M1",
+                    "Route": [
+                        50.86,
+                        44.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "pin_name": "I",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M1",
+                    "Route": [
+                        10.38,
+                        44.12
+                    ]
+                },
+                {
+                    "id": 2,
+                    "pin_name": "VSS",
+                    "direction": "INOUT",
+                    "use": "GROUND",
+                    "layer": "M1",
+                    "Route": [
+                        35.0,
+                        2.6
+                    ]
+                },
+                {
+                    "id": 3,
+                    "pin_name": "VDD",
+                    "direction": "INOUT",
+                    "use": "POWER",
+                    "layer": "M1",
+                    "Route": [
+                        35.0,
+                        87.3
+                    ]
+                }
+            ]
+        },
+        {
+            "ref_Name": "SDFQOPPSBSGD1BWP30P140HVT",
+            "CLASS": "CORE",
+            "FOREIGN": "SDFQOPPSBSGD1BWP30P140HVT",
+            "SIZE": {
+                "x": 3220.0,
+                "y": 900.0
+            },
+            "SYMMETRY": "X Y",
+            "SITE": "core",
+            "Pins": [
+                {
+                    "id": 0,
+                    "pin_name": "SI",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M2",
+                    "Route": [
+                        75.0,
+                        40.0
+                    ]
+                },
+                {
+                    "id": 1,
+                    "pin_name": "SE",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M1",
+                    "Route": [
+                        50.61,
+                        47.07
+                    ]
+                },
+                {
+                    "id": 2,
+                    "pin_name": "Q",
+                    "direction": "OUTPUT",
+                    "use": "SIGNAL",
+                    "layer": "M1",
+                    "Route": [
+                        314.67,
+                        44.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "pin_name": "D",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M1",
+                    "Route": [
+                        28.0,
+                        45.0
+                    ]
+                },
+                {
+                    "id": 4,
+                    "pin_name": "CP",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M2",
+                    "Route": [
+                        98.5,
+                        50.0
+                    ]
+                },
+                {
+                    "id": 5,
+                    "pin_name": "VSS",
+                    "direction": "INOUT",
+                    "use": "GROUND",
+                    "layer": "M1",
+                    "Route": [
+                        35.0,
+                        2.6
+                    ]
+                },
+                {
+                    "id": 6,
+                    "pin_name": "VDD",
+                    "direction": "INOUT",
+                    "use": "POWER",
+                    "layer": "M1",
+                    "Route": [
+                        35.0,
+                        87.3
+                    ]
+                }
+            ]
+        },
+        {
+            "ref_Name": "XOR2SGD0BWP30P140",
+            "CLASS": "CORE",
+            "FOREIGN": "XOR2SGD0BWP30P140",
+            "SIZE": {
+                "x": 1120.0,
+                "y": 900.0
+            },
+            "SYMMETRY": "X Y",
+            "SITE": "core",
+            "Pins": [
+                {
+                    "id": 0,
+                    "pin_name": "Z",
+                    "direction": "OUTPUT",
+                    "use": "SIGNAL",
+                    "layer": "M1",
+                    "Route": [
+                        50.86,
+                        44.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "pin_name": "A2",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M2",
+                    "Route": [
+                        86.0,
+                        24.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "pin_name": "A1",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M2",
+                    "Route": [
+                        32.75,
+                        41.38
+                    ]
+                },
+                {
+                    "id": 3,
+                    "pin_name": "VSS",
+                    "direction": "INOUT",
+                    "use": "GROUND",
+                    "layer": "M1",
+                    "Route": [
+                        35.0,
+                        2.6
+                    ]
+                },
+                {
+                    "id": 4,
+                    "pin_name": "VDD",
+                    "direction": "INOUT",
+                    "use": "POWER",
+                    "layer": "M1",
+                    "Route": [
+                        35.0,
+                        87.3
+                    ]
+                }
+            ]
+        },
+        {
+            "ref_Name": "AN2SGD0BWP30P140",
+            "CLASS": "CORE",
+            "FOREIGN": "AN2SGD0BWP30P140",
+            "SIZE": {
+                "x": 560.0,
+                "y": 900.0
+            },
+            "SYMMETRY": "X Y",
+            "SITE": "core",
+            "Pins": [
+                {
+                    "id": 0,
+                    "pin_name": "Z",
+                    "direction": "OUTPUT",
+                    "use": "SIGNAL",
+                    "layer": "M1",
+                    "Route": [
+                        50.86,
+                        44.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "pin_name": "A2",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M2",
+                    "Route": [
+                        86.0,
+                        24.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "pin_name": "A1",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M2",
+                    "Route": [
+                        32.75,
+                        41.38
+                    ]
+                },
+                {
+                    "id": 3,
+                    "pin_name": "VSS",
+                    "direction": "INOUT",
+                    "use": "GROUND",
+                    "layer": "M1",
+                    "Route": [
+                        35.0,
+                        2.6
+                    ]
+                },
+                {
+                    "id": 4,
+                    "pin_name": "VDD",
+                    "direction": "INOUT",
+                    "use": "POWER",
+                    "layer": "M1",
+                    "Route": [
+                        35.0,
+                        87.3
+                    ]
+                }
+            ]
+        },
+        {
+            "ref_Name": "OR2SGD1BWP30P140",
+            "CLASS": "CORE",
+            "FOREIGN": "OR2SGD1BWP30P140",
+            "SIZE": {
+                "x": 560.0,
+                "y": 900.0
+            },
+            "SYMMETRY": "X Y",
+            "SITE": "core",
+            "Pins": [
+                {
+                    "id": 0,
+                    "pin_name": "Z",
+                    "direction": "OUTPUT",
+                    "use": "SIGNAL",
+                    "layer": "M1",
+                    "Route": [
+                        50.86,
+                        44.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "pin_name": "A2",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M2",
+                    "Route": [
+                        86.0,
+                        24.5
+                    ]
+                },
+                {
+                    "id": 2,
+                    "pin_name": "A1",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M2",
+                    "Route": [
+                        32.75,
+                        41.38
+                    ]
+                },
+                {
+                    "id": 3,
+                    "pin_name": "VSS",
+                    "direction": "INOUT",
+                    "use": "GROUND",
+                    "layer": "M1",
+                    "Route": [
+                        35.0,
+                        2.6
+                    ]
+                },
+                {
+                    "id": 4,
+                    "pin_name": "VDD",
+                    "direction": "INOUT",
+                    "use": "POWER",
+                    "layer": "M1",
+                    "Route": [
+                        35.0,
+                        87.3
+                    ]
+                }
+            ]
+        },
+        {
+            "ref_Name": "CKMUX2SGD1BWP30P140",
+            "CLASS": "CORE",
+            "FOREIGN": "CKMUX2SGD1BWP30P140",
+            "SIZE": {
+                "x": 1400.0,
+                "y": 900.0
+            },
+            "SYMMETRY": "X Y",
+            "SITE": "core",
+            "Pins": [
+                {
+                    "id": 0,
+                    "pin_name": "Z",
+                    "direction": "OUTPUT",
+                    "use": "SIGNAL",
+                    "layer": "M1",
+                    "Route": [
+                        50.86,
+                        44.5
+                    ]
+                },
+                {
+                    "id": 1,
+                    "pin_name": "S",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M1",
+                    "Route": [
+                        10.75,
+                        42.25
+                    ]
+                },
+                {
+                    "id": 2,
+                    "pin_name": "I1",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M2",
+                    "Route": [
+                        58.0,
+                        30.0
+                    ]
+                },
+                {
+                    "id": 3,
+                    "pin_name": "I0",
+                    "direction": "INPUT",
+                    "use": "SIGNAL",
+                    "layer": "M2",
+                    "Route": [
+                        116.25,
+                        42.0
+                    ]
+                },
+                {
+                    "id": 4,
+                    "pin_name": "VSS",
+                    "direction": "INOUT",
+                    "use": "GROUND",
+                    "layer": "M1",
+                    "Route": [
+                        35.0,
+                        2.6
+                    ]
+                },
+                {
+                    "id": 5,
+                    "pin_name": "VDD",
+                    "direction": "INOUT",
+                    "use": "POWER",
+                    "layer": "M1",
+                    "Route": [
+                        35.0,
+                        87.3
+                    ]
+                }
+            ]
+        }
+    ]
+}

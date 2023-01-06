@@ -1,0 +1,187 @@
+{
+    "design": "fulladdder",
+    "unit_in_micron": 1000.0,
+    "diearea": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 0.0,
+        "y2": 6300.0,
+        "x3": 6720.0,
+        "y3": 6300.0,
+        "x4": 6720.0,
+        "y4": 0.0
+    },
+    "number_of_components": 17,
+    "components": [
+        {
+            "Comp_id": 0,
+            "ref_name": "CKMUX2SGD1BWP30P140",
+            "instance_name": "mux1",
+            "x": 0.0,
+            "y": 2700.0,
+            "direction": "N",
+            "x1": 1400.0,
+            "y1": 3600.0
+        },
+        {
+            "Comp_id": 1,
+            "ref_name": "AN2SGD0BWP30P140",
+            "instance_name": "gate",
+            "x": 140.0,
+            "y": 5400.0,
+            "direction": "FS",
+            "x1": 700.0,
+            "y1": 6300.0
+        },
+        {
+            "Comp_id": 2,
+            "ref_name": "BUFFSGD3BWP30P140HVT",
+            "instance_name": "CLK_B1",
+            "x": 1400.0,
+            "y": 5400.0,
+            "direction": "FS",
+            "x1": 2100.0,
+            "y1": 6300.0
+        },
+        {
+            "Comp_id": 3,
+            "ref_name": "SDFQOPPSBSGD1BWP30P140HVT",
+            "instance_name": "reg1",
+            "x": 140.0,
+            "y": 4500.0,
+            "direction": "N",
+            "x1": 3360.0,
+            "y1": 5400.0
+        },
+        {
+            "Comp_id": 4,
+            "ref_name": "SDFQOPPSBSGD1BWP30P140HVT",
+            "instance_name": "reg2",
+            "x": 560.0,
+            "y": 900.0,
+            "direction": "N",
+            "x1": 3780.0,
+            "y1": 1800.0
+        },
+        {
+            "Comp_id": 5,
+            "ref_name": "SDFQOPPSBSGD1BWP30P140HVT",
+            "instance_name": "reg3",
+            "x": 280.0,
+            "y": 1800.0,
+            "direction": "FS",
+            "x1": 3500.0,
+            "y1": 2700.0
+        },
+        {
+            "Comp_id": 6,
+            "ref_name": "XOR2SGD0BWP30P140",
+            "instance_name": "G1",
+            "x": 2940.0,
+            "y": 5400.0,
+            "direction": "FS",
+            "x1": 4060.0,
+            "y1": 6300.0
+        },
+        {
+            "Comp_id": 7,
+            "ref_name": "XOR2SGD0BWP30P140",
+            "instance_name": "G2",
+            "x": 3920.0,
+            "y": 4500.0,
+            "direction": "N",
+            "x1": 5040.0,
+            "y1": 5400.0
+        },
+        {
+            "Comp_id": 8,
+            "ref_name": "AN2SGD0BWP30P140",
+            "instance_name": "G3",
+            "x": 5880.0,
+            "y": 2700.0,
+            "direction": "N",
+            "x1": 6440.0,
+            "y1": 3600.0
+        },
+        {
+            "Comp_id": 9,
+            "ref_name": "AN2SGD0BWP30P140",
+            "instance_name": "G4",
+            "x": 5040.0,
+            "y": 5400.0,
+            "direction": "FS",
+            "x1": 5600.0,
+            "y1": 6300.0
+        },
+        {
+            "Comp_id": 10,
+            "ref_name": "AN2SGD0BWP30P140",
+            "instance_name": "G5",
+            "x": 5320.0,
+            "y": 4500.0,
+            "direction": "N",
+            "x1": 5880.0,
+            "y1": 5400.0
+        },
+        {
+            "Comp_id": 11,
+            "ref_name": "OR2SGD1BWP30P140",
+            "instance_name": "G7",
+            "x": 6160.0,
+            "y": 5400.0,
+            "direction": "FS",
+            "x1": 6720.0,
+            "y1": 6300.0
+        },
+        {
+            "Comp_id": 12,
+            "ref_name": "OR2SGD1BWP30P140",
+            "instance_name": "G6",
+            "x": 4760.0,
+            "y": 900.0,
+            "direction": "N",
+            "x1": 5320.0,
+            "y1": 1800.0
+        },
+        {
+            "Comp_id": 13,
+            "ref_name": "SDFQOPPSBSGD1BWP30P140HVT",
+            "instance_name": "reg4",
+            "x": 3220.0,
+            "y": 3600.0,
+            "direction": "FS",
+            "x1": 6440.0,
+            "y1": 4500.0
+        },
+        {
+            "Comp_id": 14,
+            "ref_name": "SDFQOPPSBSGD1BWP30P140HVT",
+            "instance_name": "reg5",
+            "x": 3500.0,
+            "y": 1800.0,
+            "direction": "FS",
+            "x1": 6720.0,
+            "y1": 2700.0
+        },
+        {
+            "Comp_id": 15,
+            "ref_name": "BUFFSGD3BWP30P140HVT",
+            "instance_name": "B1",
+            "x": 5320.0,
+            "y": 0.0,
+            "direction": "FS",
+            "x1": 6020.0,
+            "y1": 900.0
+        },
+        {
+            "Comp_id": 16,
+            "ref_name": "BUFFSGD3BWP30P140HVT",
+            "instance_name": "B2",
+            "x": 6020.0,
+            "y": 0.0,
+            "direction": "FS",
+            "x1": 6720.0,
+            "y1": 900.0
+        }
+    ]
+}
